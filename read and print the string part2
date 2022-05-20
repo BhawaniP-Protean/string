@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+
+printf("enter the your name");
+char name1[30];
+scanf("%s",name1);
+printf(name1);
+printf("\n");
+printf("%s",&name1[2]);    print the name1 from index 2
+}

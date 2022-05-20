@@ -1,0 +1,12 @@
+//reverse a string by using strrev()
+
+#include<stdio.h>
+#include<string.h>
+int main(){
+printf("enter the name");
+char a[20];
+scanf("%s",a);
+
+strrev(a);
+printf("%s", a);
+}

@@ -1,0 +1,29 @@
+//compare the two string
+
+
+#include<stdio.h>
+#include<string.h>
+int main(){
+printf("enter the name\n");
+char a[20];
+scanf("%s",a);
+
+printf("\n");
+
+printf("enter the another name\n");
+char b[20];
+scanf("%s",b);
+
+printf("\n");
+
+printf("compare the string \n");
+int c= strcmp(a,b);
+if(c==0){
+    printf("match");
+
+}
+else{
+    printf("not match");
+}
+
+}

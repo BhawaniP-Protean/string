@@ -1,0 +1,23 @@
+// concatenate the two string by using the strcat()
+
+#include<stdio.h>
+#include<string.h>
+int main(){
+printf("enter the first name ");
+char name[15];
+scanf("%s",name);
+printf(name);
+printf("\n");
+
+printf("enter the second number ");
+char name1[20];
+scanf("%s",name1);
+printf(name1);
+printf("\n");
+
+
+printf(" after concatenating the two string ");
+strcat(name,name1);
+printf("%s",name);
+
+}
